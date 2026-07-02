@@ -21,3 +21,5 @@ function generateCaptcha(){
         buffer: canvas.toBuffer()
     };
 }
+
+module.exports = { generateCaptcha }
