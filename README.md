@@ -5,6 +5,8 @@
 ```
 # config.json
 {
-  "token": ""
+  "token": "",
+  "verifiedRoleId": "",
+  "verifyChannelId": ""
 }
 ```
