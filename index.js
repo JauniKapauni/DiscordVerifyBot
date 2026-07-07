@@ -85,6 +85,10 @@ client.on(Events.MessageCreate, async (message) => {
         const member = await message.guild.members.fetch(message.author.id);
         await member.roles.add(role);
         captchaMap.delete(message.author.id);
+        await message.delete();
+    }
+    if(message.content.trim().toUpperCase() !== expected){
+        await message.delete();
     }
 })
 
