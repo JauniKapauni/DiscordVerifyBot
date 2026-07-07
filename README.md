@@ -5,8 +5,9 @@
 ```
 # config.json
 {
+  "clientId": "",
+  "guildId": "",
   "token": "",
-  "verifiedRoleId": "",
-  "verifyChannelId": ""
+  "verifiedRoleId": ""
 }
 ```
